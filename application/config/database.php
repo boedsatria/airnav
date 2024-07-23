@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $uri = base_url();
 $host = "localhost";
-$username = "u4814692_dev";
-$password = "100%Id/En";
-$database = "u4814692_pnp";
+$username = "u135511789_airnav";
+$password = "Airnav@2024";
+$database = "u135511789_airnav";
 
 if (strpos($uri, 'localhost') !== false || strpos($uri, '192.168') !== false || strpos($uri, '10.200') !== false) {
 	$username = "root";

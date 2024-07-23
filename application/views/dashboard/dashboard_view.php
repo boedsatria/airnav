@@ -77,7 +77,7 @@
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
 										<div class="popular-rooms">
-											<img src="https://kamr.dexignlab.com/xhtml/images/roomgrid-img/pic-2.jpg" alt="image">
+											<img src="https://officebanao.com/wp-content/uploads/2024/03/modern-office-room-with-white-walls.webp" alt="image">
 											<div class="content">
 												<span class="badge badge-success">Open</span>
 												<h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">404 Brrom Str, Fl2</a></h3>

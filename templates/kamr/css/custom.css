@@ -1,0 +1,241 @@
+.header-bx .header-profile2 .header-img img {
+    width: 7rem;
+    height: 7rem;
+}
+.header-bx .header-profile2 .header-img .header-circle {
+    width: 8rem;
+    height: 8rem;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.level-2 > li {
+    padding-left: 20px;
+}
+.level-3 > li {
+    padding-left: 26px;
+}
+
+.img-fluid{
+    object-fit: cover;
+}
+
+.swiper-text {
+    text-align: center;
+    width: 100%;
+    color: #F00;
+    position: relative;
+    bottom: 16px;
+}
+.event-card .event-img img {
+    height: 20rem;
+}
+.paginate_button{
+    cursor: pointer;
+}
+.table-menu.table td {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.table-menu tr td:first-child {
+    position: relative;
+    padding-left: 40px;
+}
+.table-menu tr td:first-child:before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      left: 30px;
+      border-left: 2px solid #a2a5b5;
+      width: 1px;
+      height: 100%;
+}
+
+.table-menu tr td:first-child:after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid #a2a5b5;
+    top: 19px;
+    left: 30px;
+    width: 50px;
+}
+
+.table-menu tr:last-child td:before {
+    height: 20px;
+}
+
+.table-menu tr:first-child td:first-child::before {
+    height: 50% !important;
+    top: 20px;
+}
+.table-menu tr td span{
+    background: #FFF;
+    position: relative;
+    z-index: 10;
+    padding-left: 10px;
+}
+
+.table-menu img {
+    max-height: 50px;
+}
+
+.table-menu tr.level-3 td:first-child:after {
+    top: 26px;
+}
+
+.nice-select.wide .list {
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+/* .nav-header{
+    z-index: 999;
+}
+[data-header-position="fixed"] .header{
+    z-index: 99;
+} */
+
+.modal-delete .bi-x-circle {
+    font-size: 5rem;
+    color: #f72b50;
+}
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.strong{
+    font-weight: bold;
+}
+#order-table_wrapper .dataTables_length {
+    display: inline-block;
+    padding: 20px;
+    margin: 0;
+}
+#order-table_wrapper .dataTables_filter {
+    display: inline-block;
+    padding: 20px;
+    margin: 0;
+    float: right;
+}
+
+.table-inv tr td{
+    vertical-align: top !important;
+}
+.table-inv-in tr td {
+    text-align: left;
+    padding-left: 16px;
+    margin: 0;
+    padding: 4px;
+}
+
+.table-inv-in tr {
+    background-color: transparent !important;
+}
+
+.fc-daygrid-event,
+.fc-daygrid-event:hover {
+    color: #FFF;
+}
+
+.popover {
+    border-color: var(--primary);
+}
+.popover-header {
+    background: var(--primary);
+}
+
+li.breadcrumb-item {
+    max-width: 190px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 14px;
+}
+li.breadcrumb-item.active {
+    max-width: 300px;
+}
+
+.table-no-padding td{
+    padding: 0;
+}
+.table-no-padding td:nth-child(2){
+    padding: 0 10px;
+    text-align: center;
+}
+.table-no-padding td:nth-child(1){
+    width: 100%;
+}
+.form-control:disabled, .form-control[readonly] {
+    background: #DDD;
+}
+
+.dataTables_length{
+    width: 50%;
+    display: inline-block;
+}
+.dataTables_filter{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+.table-head-mid thead th{
+    text-align: center;
+    vertical-align: middle;
+}
+.data-table tr td{
+    border-color: #EEEEEE;
+    border-top: 1px solid #ddd;
+}
+.modal {
+    z-index: 99;
+}
+
+.table-head-mid tfoot th {
+    padding: 20px 14px;
+    border-top: solid 1px #DDD;
+}
+.table-head-mid tfoot th[align="right"] {
+    text-align: right;
+}
+.table-head-mid tfoot th[align="center"] {
+    text-align: center;
+}
+.cfs-sm, .cfs-sm th {
+    font-size: 10px !important;
+}
+
+table.t-panjang {
+    text-align: left;
+    position: relative;
+    border-collapse: separate; /* Don't collapse */
+}
+
+table.t-panjang th {
+    background: white;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    vertical-align: middle;
+    border-top: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    border-right: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+}
+table.t-panjang tr:nth-child(2) th {
+    top: 57px;
+}
+table.t-panjang tr:nth-child(3) th {
+    top: 113px;
+}
+table.t-panjang tr:nth-child(4) th {
+    top: 169px;
+    padding: 0.5rem 1.125rem;
+}

@@ -82,7 +82,7 @@ $database = "u4814692_pnp";
 if (strpos($uri, 'localhost') !== false || strpos($uri, '192.168') !== false || strpos($uri, '10.200') !== false) {
 	$username = "root";
 	$password = "";
-	$database = "pnp";
+	$database = "test";
 }
 
 $db['default'] = array(

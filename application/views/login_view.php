@@ -9,12 +9,11 @@
                                 <div class="auth-form">
                                     <div class="text-center mb-3">
                                         <a href="<?= base_url() ?>">
-                                            <img width="30%" class="img-fluid" src="<?= base_url() ?>images/logo-dbmsda.png">
+                                            <img width="30%" class="img-fluid" src="<?= base_url() ?>images/airnav-logo.png">
                                         </a>
                                     </div>
-                                    <h1 class="text-center">Eyemonev</h1>
-                                    <h4 class="text-center mb-4">Bidang Perencanaan dan Pengendalian <br>
-                                    DBMSDA - Kota Bekasi</h4>
+                                    <h1 class="text-center">AIRNAV</h1>
+                                    <h4 class="text-center mb-4">SMART OFFICE</h4>
                                     <form action="<?= base_url('login/login_action') ?>" method="POST">
                                         <div class="mb-3">
                                             <label class="mb-1"><strong>NIK</strong></label>
@@ -36,7 +35,7 @@
                                             </div>
                                         </div>
                                         <div class="text-center">
-                                            <button type="submit" class="btn btn-primary btn-block">Masuk</button>
+                                            <a href="<?= base_url() ?>dashboard" type="submit" class="btn btn-primary btn-block">Masuk</a>
                                         </div>
                                     </form>
                                 </div>

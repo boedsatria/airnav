@@ -5,7 +5,7 @@ class Dashboard extends CI_Controller {
 
 	function __construct(){
 		parent::__construct();
-		check_login();
+		// check_login();
 		// check_admin();
 		$this->load->model('MainModel');
 		$this->load->model('PekerjaanModel');
@@ -18,11 +18,11 @@ class Dashboard extends CI_Controller {
 	{
 		$year = (isset($_POST['year']) ? $_POST['year'] : date('Y'));
 		$data = array(
-			'user'=>$this->UserModel->get_user(),
-			'program'		=> $this->PekerjaanModel->get_program_all($year)
+			'user'			=> array(),
+			'program'		=> array()
 		);
 
-		$v['admin_title'] 	= 'Admin Dashboard';
+		$v['admin_title'] 	= 'Dashboard';
 		$v['preloader'] 	= $this->load->view('templates/preloader', $data, TRUE);
 		$v['copyright'] 	= $this->load->view('templates/copyright', $data, TRUE);
 		$v['script']		= $this->load->view('script/script_dashboard', $data, TRUE);

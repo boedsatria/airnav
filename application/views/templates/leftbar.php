@@ -2,8 +2,8 @@
     Sidebar start
 ***********************************-->
 <?php
-$role = $this->session->userdata('userlogin')['role_user'];
-$fs = $this->session->userdata('userlogin')['foto_user'];
+$role = "1";
+$fs = "noavatar.png";
 $file = base_url() . 'uploads/users/' . $fs;
 $file_headers = @get_headers($file);
 
@@ -26,8 +26,8 @@ if ($file_headers[0] == 'HTTP/1.1 404 Not Found' || $fs == '') {
                     </svg>
                 </div>
                 <div class="header-content">
-                    <h2 class="font-w500"><?= $this->session->userlogin['nama_user'] ?></h2>
-                    <span class="font-w400"><?= $this->session->userlogin['email_user'] ?></span>
+                    <h2 class="font-w500">Admin</h2>
+                    <span class="font-w400">admin@airnav.id</span>
                 </div>
             </a>
         </div>
@@ -93,7 +93,7 @@ if ($file_headers[0] == 'HTTP/1.1 404 Not Found' || $fs == '') {
 
         </ul>
         <div class="copyright">
-            <h6>Eyemonev Admin Dashboard <span class="fs-14 font-w400">© 2022 All Rights Reserved</span></h6>
+            <h6>Smart Office Airnav <span class="fs-14 font-w400">© 2024 All Rights Reserved</span></h6>
         </div>
     </div>
 </div>

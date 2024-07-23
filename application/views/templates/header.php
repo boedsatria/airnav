@@ -8,13 +8,13 @@
 	<meta name="author" content="" />
 	<meta name="robots" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Eyemonev DBMSDA" />
-	<meta property="og:title" content="Eyemonev DBMSDA" />
-	<meta property="og:description" content="Eyemonev DBMSDA" />
+	<meta name="description" content="SMART OFFICE Airnav" />
+	<meta property="og:title" content="SMART OFFICE Airnav" />
+	<meta property="og:description" content="SMART OFFICE Airnav" />
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- PAGE TITLE HERE -->
-	<title>EyeMonev Dashboard</title>
+	<title>SMART OFFICE Airnav</title>
 	
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>images/smt.png" />

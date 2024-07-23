@@ -4,7 +4,7 @@
 ***********************************-->
 <div class="nav-header">
 	<a href="<?= base_url(); ?>dashboard" class="brand-logo" style="color: #2d3134;">
-		EyeMonev
+		Airnav
 		<!-- <img src="<?= base_url(); ?>images/smt.png" style="width: 80%;"> -->
 	</a>
 	<div class="nav-control">
@@ -45,7 +45,7 @@
 												<i class="bi-receipt" style="color:#FFF;"></i>
 											</div>
 											<div class="media-body">
-												<a href="<?= base_url().'admin/notification_detail/'.encrypt_uri('1') ?>" class="h6 mb-1">Notif</a>
+												<a href="#" class="h6 mb-1">Notif</a>
 												<small class="d-block"><?= cek_terakhir('2022-09-27') ?></small>
 											</div>
 										</div>

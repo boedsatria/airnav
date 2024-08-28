@@ -17,7 +17,7 @@
 	<title>SMART OFFICE Airnav</title>
 	
 	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>images/smt.png" />
+	<link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>images/airnav-logo.png" />
     <link href="<?= base_url(); ?>templates/kamr/vendor/fullcalendar/css/main.min.css" rel="stylesheet">
 	<link href="<?= base_url(); ?>templates/kamr/vendor/lightgallery/css/lightgallery.css" rel="stylesheet">
 	<link href="<?= base_url(); ?>templates/kamr/vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">

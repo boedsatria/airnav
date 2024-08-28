@@ -39,7 +39,23 @@ if ($file_headers[0] == 'HTTP/1.1 404 Not Found' || $fs == '') {
 
             </li>
 
-            <li>
+            <li><a href="<?= base_url() ?>landscape">
+                    <i class="bi-aspect-ratio-fill"></i>
+                    <span class="nav-text">Landscape</span>
+                </a>
+            </li>
+            <li><a href="<?= base_url() ?>environment">
+                    <i class="bi-brightness-alt-high-fill"></i>
+                    <span class="nav-text">Environment</span>
+                </a>
+            </li>
+            <li><a href="<?= base_url() ?>parking">
+                    <i class="bi-truck"></i>
+                    <span class="nav-text">Parkir</span>
+                </a>
+            </li>
+
+            <li hidden>
                 <a class="has-arrow cursor" aria-expanded="false">
                     <i class="flaticon-050-info"></i>
                     <span class="nav-text">Rekapitulasi</span>
@@ -54,31 +70,31 @@ if ($file_headers[0] == 'HTTP/1.1 404 Not Found' || $fs == '') {
             </li>
 
             <?php if ($role <= 3) : ?>
-                <li><a href="<?= base_url('program') ?>">
+                <li hidden><a href="<?= base_url('program') ?>">
                         <i class="bi bi-card-checklist"></i>
                         <span class="nav-text">Program</span>
                     </a>
                 </li>
-                <li><a href="<?= base_url('import') ?>">
+                <li hidden><a href="<?= base_url('import') ?>">
                         <i class="flaticon-090-upload"></i>
                         <span class="nav-text">Import Data</span>
                     </a>
                 </li>
-                <li><a href="<?= base_url('import/hasil') ?>">
+                <li hidden><a href="<?= base_url('import/hasil') ?>">
                         <i class="flaticon-065-pin"></i>
                         <span class="nav-text">Data Import</span>
                     </a>
                 </li>
             <?php else : ?>
-                <li><a href="<?= base_url() . 'pekerjaan/user/' . $this->session->userdata('userlogin')['id_user'] ?>">
+                <li hidden><a href="<?= base_url() . 'pekerjaan/user/' . $this->session->userdata('userlogin')['id_user'] ?>">
                         <i class="bi bi-card-checklist"></i>
                         <span class="nav-text">Pekerjaan Saya</span>
                     </a>
                 </li>
             <?php endif; ?>
 
-            <li><a href="<?= base_url() ?>user">
-                    <i class="flaticon-381-user"></i>
+            <li hidden><a href="<?= base_url() ?>user">
+                    <i class="bi-aspect-ratio-fill"></i>
                     <span class="nav-text">User</span>
                 </a>
             </li>

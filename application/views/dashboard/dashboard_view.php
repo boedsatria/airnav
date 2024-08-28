@@ -70,16 +70,16 @@
 						</div>
 						<div class="mt-5 mb-4">
 							<div class="d-flex align-items-center justify-content-between mb-sm-0 mb-2">
-								<h2 class="font-w500">Popular Rooms</h2>
+								<h2 class="font-w500">Rooms</h2>
 								<div class="swiper-pagination style-1 room-swiper-pagination"></div>
 							</div>
 							<div class="swiper front-view-slider">
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
 										<div class="popular-rooms">
-											<img src="images/image2.png" alt="image">
+											<img src="https://officebanao.com/wp-content/uploads/2024/03/modern-office-room-with-white-walls.webp" alt="image">
 											<div class="content">
-												<span class="badge badge-success">AVAILABLE</span>
+												<span class="badge badge-success">Open</span>
 												<h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">404 Brrom Str, Fl2</a></h3>
 												<span class="font-w400 text-white">Type 234</span>
 											</div>
@@ -89,7 +89,7 @@
 										<div class="popular-rooms">
 											<img src="https://kamr.dexignlab.com/xhtml/images/roomgrid-img/pic-7.jpg" alt="image">
 											<div class="content">
-												<span class="badge badge-primary">Booked</span>
+												<span class="badge badge-primary">Open</span>
 												<h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">235 Cream, G32</a></h3>
 												<span class="font-w400 text-white">Type 234</span>
 											</div>
@@ -99,7 +99,7 @@
 										<div class="popular-rooms">
 											<img src="https://kamr.dexignlab.com/xhtml/images/roomgrid-img/pic-8.jpg" alt="image">
 											<div class="content">
-												<span class="badge badge-success">AVAILABLE</span>
+												<span class="badge badge-success">Locked</span>
 												<h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">992 Green, HF</a></h3>
 												<span class="font-w400 text-white">Type 234</span>
 											</div>
@@ -119,7 +119,7 @@
 										<div class="popular-rooms">
 											<img src="https://kamr.dexignlab.com/xhtml/images/roomgrid-img/pic-7.jpg" alt="image">
 											<div class="content">
-												<span class="badge badge-primary">Booked</span>
+												<span class="badge badge-primary">Close</span>
 												<h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">172 Grey 22F, JF</a></h3>
 												<span class="font-w400 text-white">Type 234</span>
 											</div>
@@ -129,7 +129,7 @@
 										<div class="popular-rooms">
 											<img src="https://kamr.dexignlab.com/xhtml/images/roomgrid-img/pic-8.jpg" alt="image">
 											<div class="content">
-												<span class="badge badge-primary">Booked</span>
+												<span class="badge badge-primary">Close</span>
 												<h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">235 Cream, G32</a></h3>
 												<span class="font-w400 text-white">Type 234</span>
 											</div>
@@ -139,7 +139,7 @@
 										<div class="popular-rooms">
 											<img src="https://kamr.dexignlab.com/xhtml/images/roomgrid-img/pic-9.jpg" alt="image">
 											<div class="content">
-												<span class="badge badge-primary">Booked</span>
+												<span class="badge badge-primary">Open</span>
 												<h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">235 Cream, G32</a></h3>
 												<span class="font-w400 text-white">Type 234</span>
 											</div>
@@ -149,7 +149,7 @@
 										<div class="popular-rooms">
 											<img src="https://kamr.dexignlab.com/xhtml/images/roomgrid-img/pic-7.jpg" alt="image">
 											<div class="content">
-												<span class="badge badge-primary">Booked</span>
+												<span class="badge badge-primary">Close</span>
 												<h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">235 Cream, G32</a></h3>
 												<span class="font-w400 text-white">Type 234</span>
 											</div>
@@ -159,7 +159,7 @@
 										<div class="popular-rooms">
 											<img src="https://kamr.dexignlab.com/xhtml/images/roomgrid-img/pic-8.jpg" alt="image">
 											<div class="content">
-												<span class="badge badge-primary">Booked</span>
+												<span class="badge badge-primary">Close</span>
 												<h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">235 Cream, G32</a></h3>
 												<span class="font-w400 text-white">Type 234</span>
 											</div>

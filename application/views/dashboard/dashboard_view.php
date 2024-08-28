@@ -68,7 +68,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="mt-5 mb-4">
+						<div class="mt-5 mb-4" hidden>
 							<div class="d-flex align-items-center justify-content-between mb-sm-0 mb-2">
 								<h2 class="font-w500">Rooms</h2>
 								<div class="swiper-pagination style-1 room-swiper-pagination"></div>

@@ -748,7 +748,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     {
         $CI =&get_instance();
         $CI->load->library('session'); // load library 
-        if ($CI->session->userdata('userlogin') == null) redirect (base_url('login'));
+        // if ($CI->session->userdata('userlogin') == null) redirect (base_url('login'));
     }
 
     function tgl_indo($tgl)

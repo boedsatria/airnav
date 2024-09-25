@@ -22,7 +22,7 @@
                             <ul class="timeline">
                                 <li>
                                     <div class="timeline-panel">
-                                        <img class="w-50" src="<?= base_url() ?>images/forecast.png">
+                                        <img class="col-lg-6 col-12" src="<?= base_url() ?>images/forecast.png">
                                     </div>
                                 </li>
                                 <li>
